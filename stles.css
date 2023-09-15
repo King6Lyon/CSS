@@ -1,0 +1,97 @@
+/* Réinitialisation des marges et des espacements */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* question N°4 */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Barre de navigation  Question N°3*/
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #fd7527;
+    border-color: #f8a01c; /* Couleur différente et soulignement au survol */
+  }
+  
+  /* Sections Voir dans HTML*/
+  .section {
+    background-color: #FFF3E1;
+    border: 1px solid #FF5722;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Bouton de formulaire */
+  input[type="submit"] {
+    background-color: #FF5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: green; /* Couleur différente au survol */
+    border-radius: 15px;/*changement de forme en survol*/
+  }
+  
+  /* Pied de page */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Réseaux sociaux */
+  footer a {
+    margin: 0 10px;
+    color: #FF5722; /* Couleur différente pour les icônes */
+  }
+  
+  /* Réseaux sociaux - Icônes */
+  footer img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+  
+  /* Réseaux sociaux - Lien */
+  footer a:hover {
+    color: white; /* Couleur différente au survol */
+  }
+  
+  
+  

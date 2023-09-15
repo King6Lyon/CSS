@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Le site de rencontre sportive</title>
+</head>
+<body>
+    <form name="fiche" method="post" action="">
+        <fieldset style="width: 500px;"><legend>Vos coordonnez </legend>
+            <table border="0">
+                <tr>
+                    <td>Nom</td>
+                    <td>:</td>
+                    <td><input type="text" name="Nom" size="50" required></td>
+                </tr>
+                <tr>
+                    <td>Prémon</td>
+                    <td>:</td>
+                    <td><input type="text" name="Prénom" size="50" required></td>
+                </tr>
+                <tr>
+                    <td>Departement</td>
+                    <td>:</td>
+                    <td><input type="text" name="Departement" size="50" required></td>
+                </tr>
+                <tr>
+                    <td> Email</td>
+                    <td>:</td>
+                    <td><input type="text" name="Email" size="50" required></td>
+                </tr>
+             </table>
+        </fieldset>
+        <fieldset style="width: 500px;"><legend>Vos pratique spotives</legend>
+            <table border="0">
+                <tr>
+                    <td>Sport pratique</td>
+                    <td>:</td>
+                    <td><select name="sp">
+                        <option>Choisissez</option>
+                        <option>Basket-ball</option>
+                        <option>Football</option>
+                        <option>Hand-ball</option>
+                        <option>Tenis</option>
+                    </select>
+                    On ajouter un sport à la liste
+                    <input type="text" name="Sp" size="50">
+                    <input type="submit" name="Ajouter" value="Ajouter"></td>
+                </tr>
+                <tr>
+                    <td>Niveau</td>
+                    <td>:</td>
+                    <td><select name="Niveau">
+                        <option>Debutant</option>
+                        <option>Amateur</option>
+                        <option>Jounior</option>
+                        <option>Professionnel</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td colspan="3"> <input type="submit" name="Envoyer" value="Envoyer">
+                    <input type="reset" name="Effacer" value="Effacer"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <p><a href="Rechercher.html">Rechercher un partenaire</a>
+    </p><p><a href="Portefolio.html">Go to my Portefolio</a></p>
+</body>
+</html>
